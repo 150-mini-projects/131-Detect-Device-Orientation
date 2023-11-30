@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242424;
+}
+
+.container {
+  font-size: 2.4em;
+  background-color: #ffffff;
+  width: 12em;
+  height: 12em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 4em 0;
+  display: grid;
+  place-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #403f52;
+  border-radius: 0.5em;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    font-size: 20px;
+  }
+}
